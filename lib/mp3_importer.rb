@@ -9,7 +9,7 @@ class MP3Importer
   def files
     
     files = Dir[@path+"/*.mp3"]
-    files.map{|file| file.chomp("./spec/fixtures/mp3s/")
+    files.map{|file| file.chomp("./spec/fixtures/mp3s/")}
     files
   end
   
